@@ -13,7 +13,7 @@ def object_detection(img):
         if area >= AREA_FROM and area < AREA_TO:
             epsilon = E_RATIO*cv.arcLength(cnt, True)
             approx = cv.approxPolyDP(cnt,epsilon,True)
-            if len(approx) >= ANGLE_COUNT:
+            if len(approx) == ANGLE_COUNT:
                 x,y,w,h = cv.boundingRect(cnt)
                 rect = cv.rectangle(
                         img,
@@ -27,7 +27,7 @@ def object_detection(img):
                         'square',
                         (x,y),
                         cv.FONT_HERSHEY_PLAIN,
-                        3,
+                        2,
                         (0,255,0),
                         3,
                         cv.LINE_AA)
