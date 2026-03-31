@@ -1,1 +1,0 @@
-Green-sticky-note-detection
