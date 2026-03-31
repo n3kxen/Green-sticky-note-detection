@@ -18,13 +18,13 @@ A real-time computer vision project that detects green sticky notes using a webc
 Install dependencies:
 
 ```bash
-pip install opencv-python numpy
+pip3 install opencv-python numpy
 ```
 
 ## Usage
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 Press **Q** to quit.
