@@ -40,7 +40,7 @@ All parameters are in `config.py`:
 | `AREA_FROM` | 26000 | Minimum contour area |
 | `AREA_TO` | 70000 | Maximum contour area |
 | `E_RATIO` | 0.01 | Contour approximation accuracy |
-| `ANGLE_COUNT` | 4 | Minimum number of angles to detect shape |
+| `ANGLE_COUNT` | 4 | Minimum number of angles to detect shape (rectangles/squares only) |
 
 ## Project Structure
 
