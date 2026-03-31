@@ -51,4 +51,6 @@ object-detection/
 ├── config.py      # Configuration parameters
 └── README.md
 ```
+## Example
+<img width="638" height="477" alt="Screenshot at Mar 31 13-08-49" src="https://github.com/user-attachments/assets/363a163a-64c1-4e61-b2d4-0b1feb4d2abd" />
 
